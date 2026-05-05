@@ -200,7 +200,5 @@ python tmp_generate_qs.py
 Contributions, issues, and feature requests are welcome! 
 Feel free to check [issues page](https://github.com/yourusername/java-master-quiz/issues).
 
-## 📄 License
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 Made with ❤️ by Saurav Dhiman
