@@ -1,0 +1,8 @@
+admin|10|10|120
+saurav@123|1|1|30
+saurav@123|0|2|60
+saurav@123|1|5|26
+saurav@123|0|1|9
+saurav@123|2|10|29
+munna|0|5|23
+saurav|0|5|4

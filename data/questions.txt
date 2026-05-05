@@ -1,0 +1,105 @@
+What is the default value of short?|0|0.0|null|undefined|0|Easy|Java Basics
+Which keyword declares a constant?|final|const|static|immutable|0|Easy|Java Basics
+Which of these is a valid comment?|//|/*|/**/|All|3|Easy|Java Basics
+Length of a java byte?|8 bits|4 bits|16 bits|32 bits|0|Easy|Java Basics
+Object equality is checked by?|==|equals()|===|equal|1|Easy|Java Basics
+What does JVM stand for?|Java Variable Machine|Java Virtual Machine|Java Verified Mode|None|1|Easy|Java Basics
+Which loop always executes at least once?|while|for|do-while|foreach|2|Easy|Java Basics
+Can main() be overloaded?|Yes|No|Only once|Sometimes|0|Medium|Java Basics
+Which loop evaluates condition after body?|do-while|while|for|foreach|0|Medium|Java Basics
+What is String pool?|Heap memory area|Stack memory|File|Network|0|Medium|Java Basics
+Is String thread safe?|Yes|No|Sometimes|Always|0|Medium|Java Basics
+Break without label breaks out of?|Innermost loop|All loops|Class|Function|0|Medium|Java Basics
+Which stream reads a file character by character?|FileReader|FileWriter|Output|Scanner|0|Medium|Java Basics
+Which class is used to format strings?|Formatter|String|Builder|Text|0|Medium|Java Basics
+Default size of char in Java?|1 Byte|2 Bytes|4 Bytes|Depends|1|Hard|Java Basics
+How is NaN compared?|==|equals()|Float.isNaN()|Not possible|2|Hard|Java Basics
+Is goto a keyword?|Yes but unused|No|Yes and used|Library|0|Hard|Java Basics
+What does strictfp do?|Floats adhere to IEEE 754|Fast floating point|Throws err|None|0|Hard|Java Basics
+Can we override static methods?|Yes|No, they are hidden|Sometimes|Yes|1|Hard|Java Basics
+What is lambda in Java?|Anonymous function|Interface|Class|Constructor|0|Hard|Java Basics
+Does functional interface have 1 method?|Yes|No|Yes exactly one|Depends|2|Hard|Java Basics
+Core principle: hiding data?|Encapsulation|Abstraction|Polymorphism|Inheritance|0|Easy|OOP
+Keyword for inheritance?|extends|implements|imports|uses|0|Easy|OOP
+Does java support multiple inheritance?|No, via classes|Yes|Sometimes|Via modules|0|Easy|OOP
+Method with same name, diff params?|Overloading|Overriding|Duplicating|Abstracting|0|Easy|OOP
+Instance creation keyword?|new|create|build|make|0|Easy|OOP
+Which access modifier allows access from anywhere?|private|public|protected|default|1|Easy|OOP
+What is constructor?|Special method|Loop|Class|Static method|0|Easy|OOP
+Interface methods default modified?|public abstract|private|protected|none|0|Medium|OOP
+Can abstract classes have constructors?|Yes|No|Only default|Only static|0|Medium|OOP
+What is super()?|Calls parent constructor|Object reference|Child method|Property|0|Medium|OOP
+Final class can be inherited?|No|Yes|By interface|By abstract|0|Medium|OOP
+Static variables belong to?|Class|Object|Method|Thread|0|Medium|OOP
+What is polymorphism?|Multiple forms|Multiple classes|Many objects|Code reuse|0|Medium|OOP
+Which keyword prevents override?|private|final|static|public|1|Medium|OOP
+Can we change return type on override?|Yes, covariant type|No|Yes, any type|Primitives only|0|Hard|OOP
+Diamond problem is resolved by?|Interfaces|Abstract classes|Vectors|None|0|Hard|OOP
+Is 'this' reference available in static?|No|Yes|Optional|Only in main|0|Hard|OOP
+Dynamic binding is?|Runtime polymorphism|Compile time|Overloading|Hiding|0|Hard|OOP
+Local classes can access variables that are?|final or effectively final|public|all|none|0|Hard|OOP
+Which is for multiple inheritance?|interface|class|extends|None|0|Hard|OOP
+Can an interface extend another?|Yes|No|Only abstract classes|None|0|Hard|OOP
+Top interface of Collections framework?|Collection|List|Set|Map|0|Easy|Collections
+Implementation of dynamic array?|ArrayList|LinkedList|Vector|Set|0|Easy|Collections
+Does Set allow duplicates?|No|Yes|Sometimes|Depending on config|0|Easy|Collections
+Collection mapping keys to values?|Map|Set|List|Queue|0|Easy|Collections
+Which allows faster search?|HashSet|ArrayList|LinkedList|Stack|0|Easy|Collections
+Which collection uses FIFO?|Queue|Stack|List|Set|0|Easy|Collections
+Which collection uses LIFO?|Stack|Queue|List|Set|0|Easy|Collections
+Hashtable vs HashMap difference?|Hashtable is sync'd|HashMap is sync'd|No diff|Map wins|0|Medium|Collections
+List retaining insertion order?|ArrayList|HashSet|TreeSet|TreeList|0|Medium|Collections
+Which Queue uses FIFO?|Queue|Stack|Deque|Collection|0|Medium|Collections
+What is default ArrayList capacity?|10|16|20|5|0|Medium|Collections
+How HashSet internally works?|Uses HashMap|Uses Array|Uses Tree|Uses List|0|Medium|Collections
+Which collection type does not allow duplicates?|Set|List|ArrayList|LinkedList|0|Medium|Collections
+Is Vector synchronized?|Yes|No|Sometimes|Never|0|Medium|Collections
+LinkedHashMap maintains?|Insertion order|Sorted order|Random order|No order|0|Hard|Collections
+TreeSet internal implementation?|TreeMap|HashMap|ArrayList|Graph|0|Hard|Collections
+IdentityHashMap compares keys using?|==|equals()|hashcode|comparable|0|Hard|Collections
+Iterator throwing CME is?|Fail-fast|Fail-safe|Robust|Broken|0|Hard|Collections
+CopyOnWriteArrayList is used for?|Thread safety|Fast writes|Less memory|Ordering|0|Hard|Collections
+Which Map maintains insertion order?|LinkedHashMap|HashMap|TreeMap|Hashtable|0|Hard|Collections
+Can a Set contain null?|Yes|No|Only once|Depends|2|Hard|Collections
+Interface to create thread?|Runnable|Thread|Callable|Executor|0|Easy|Threads
+Method to begin execution of thread?|start()|run()|execute()|launch()|0|Easy|Threads
+Thread state when not running?|Waiting/Blocked|Running|Dead|New|0|Easy|Threads
+Maximum typical thread priority?|10|5|1|100|0|Easy|Threads
+Min thread priority?|1|0|-1|10|0|Easy|Threads
+Which state is thread in after new?|Runnable|Running|Waiting|Dead|0|Easy|Threads
+How to pause a thread explicitly?|Thread.sleep()|pause()|stop()|wait()|0|Easy|Threads
+sleep() vs wait() diff?|wait releases lock|sleep releases lock|both hold lock|both release|0|Medium|Threads
+Daemon thread runs in?|Background|Foreground|Kernel|Hardware|0|Medium|Threads
+Keyword to acquire monitor lock?|synchronized|monitor|lock|mutex|0|Medium|Threads
+join() method purpose?|Waits for thread to die|Starts thread|Stops thread|Merges memory|0|Medium|Threads
+InterruptedException thrown by?|sleep()|start()|notify()|run()|0|Medium|Threads
+Which keyword makes code thread-safe?|synchronized|volatile|atomic|lock|0|Medium|Threads
+What is deadlock?|Two threads waiting|Thread crash|Infinite loop|None|0|Medium|Threads
+Best way to implement thread pool?|ExecutorService|new Thread()|ThreadGroup|Thread.start()|0|Hard|Threads
+Callable differs from Runnable by?|Returning a value|Runs faster|Being synchronous|Being native|0|Hard|Threads
+Volatile keyword guarantees?|Visibility|Atomicity|Ordering|Exclusion|0|Hard|Threads
+ThreadLocal usage?|Thread specific storage|Global variable|Thread counter|Heap memory|0|Hard|Threads
+Who manages thread scheduling?|JVM|OS|Thread class|User|0|Hard|Threads
+Does wait release locks?|Yes|No|Sometimes|Only static locks|0|Hard|Threads
+Does sleep release locks?|No|Yes|Sometimes|Only static locks|0|Hard|Threads
+Exception base class?|Throwable|Exception|Error|RunError|0|Easy|Exception Handling
+Block that executes always?|finally|catch|try|threw|0|Easy|Exception Handling
+Catch block must follow?|try|finally|throws|class|0|Easy|Exception Handling
+Keyword to manually throw exception?|throw|throws|catch|try|0|Easy|Exception Handling
+Can try be without catch?|Yes, with finally|No|Yes standalone|Never|0|Easy|Exception Handling
+Which represents a null reference?|IOException|NullPointerException|ClassNotFoundException|FileException|1|Easy|Exception Handling
+Which is used to handle exceptions?|try-catch|for-loop|scanner|handler|0|Easy|Exception Handling
+Checked vs Unchecked diff?|Checked verified at compile|Unchecked at compile|No diff|JVM decides|0|Medium|Exception Handling
+IOException is?|Checked|Unchecked|Error|Warning|0|Medium|Exception Handling
+NullPointerException is?|Unchecked|Checked|Error|Fatal|0|Medium|Exception Handling
+What if catch and finally return?|finally return wins|catch return wins|compile error|crash|0|Medium|Exception Handling
+Can we have multiple catch blocks?|Yes|No|Maximum 2|Limited by JVM|0|Medium|Exception Handling
+Which keyword declares exception in method?|throws|throw|finally|catch|0|Medium|Exception Handling
+What is ClassNotFoundException?|Checked|Unchecked|Error|None|0|Medium|Exception Handling
+Order of multiple catch blocks?|Specific to general|General to specific|Any order|Alphabetical|0|Hard|Exception Handling
+Automatic resource management?|try-with-resources|finally-close|cleanup-block|GC-sync|0|Hard|Exception Handling
+OutOfMemoryError is part of?|Error|Exception|RuntimeException|Throwable|0|Hard|Exception Handling
+Can we throw an Error object?|Yes but bad practice|No, won't compile|Only JVM can|Ignored|0|Hard|Exception Handling
+What does rethrowing exception do?|Keeps original stack trace|Clears stack trace|Creates new Thread|Destroys process|0|Hard|Exception Handling
+What is superclass of exceptions?|Throwable|Exception|Error|Object|0|Hard|Exception Handling
+Method overriding allows adding new checked exceptions?|No|Yes|Only same|None|0|Hard|Exception Handling
